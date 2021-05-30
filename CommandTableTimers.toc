@@ -1,0 +1,9 @@
+## Interface: 90005
+## Version: 1
+## Title: Command Table Timers
+## Notes: Records all shadowlands command table missions to help keep track of timers across your whole account
+## Author: Freebs-Area52
+
+## SavedVariables: MissionTimers
+
+embeds.xml
