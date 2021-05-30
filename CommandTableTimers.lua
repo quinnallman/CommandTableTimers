@@ -215,7 +215,7 @@ local cols = {
         ["defaultsort"] = "asc",
         ["DoCellUpdate"] = function(rowFrame, frame, data, cols, row, realRow, column, fShow, table, class)
             if fShow then
-			    local celldata = data[realRow][3]
+                local celldata = data[realRow][3]
                 frame.text:SetText(durationString(celldata))
             else
                 frame.text:SetText("")
